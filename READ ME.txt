@@ -1,0 +1,8 @@
+Uma  pagina simples cuja a função é demonstrar conhecimento no uso das tags, e recursos do HTML,CSS,javascript.
+
+sera dividia em 2 paginas html onde a primeira:
+sera uma apresentação que mostrara uma lista do lado que desaparece caso a tela seja pequena, e do lado mostrara um texto que permitira vc ver um carossel de imagens onde ao clicar no botão ele muda de imagem e atualiza um texto abaixo
+
+
+na segunda tela sera um formulario, que usara as tags principais dele.
+ 
