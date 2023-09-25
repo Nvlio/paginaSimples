@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="pt-BR">
+    <link rel="stylesheet" href="Estilo.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1836/1836126.png" type="image/png" />
+    <title>Formulario portifolio</title>
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+    <header class="nav">
+        <h1>Formulario para o portifolio</h1>
+    </header>
+    <section class="content">
+        <form>
+            <label for="email">Seu email</label>
+            <input type="email" id="email" placeholder="exemplo@email.com" />
+            <br><br>
+            <span class="contForm">
+                <span class="sen1">
+                    <label for="senha">Sua senha</label>
+                    <input type="password" id="senha" placeholder="passwordexample123" max="15" />
+                </span>
+                <span class="sen2">
+                    <label for="senhaconf">Confirme sua senha por favor</label>
+                    <input type="password" placeholder="confirme sua senha" max="15" />
+                </span>
+            </span>
+            <legend style="text-align: center; color: rgb(33, 107, 203);">Sua senha esta segura com a gente</legend>
+            <br><br><br>
+            <label for="telefone">seu telefone</label>
+            <input type="tel" placeholder="seu telefone porfavor">
+            <br><br>
+            <label for="dataNasc">Data de nascimento</label>
+            <input type="date" id="dataNasc">
+            <br><br>
+            <label for="qnt">coloque um numero ai</label>
+            <input type="number" id="qnt">
+            <br><br>
+            <label for="selecione">selecione o melhor</label>
+            <select id="selecione">
+                <optgroup label="Chapeus de palha">
+                    <option value="Luffy">Luffy</option>
+                    <option value="Zoro">Zoro</option>
+                    <option value="Usopp">Usopp</option>
+                    <option value="Sanji">Sanji</option>
+                    <option value="Nami">Nami</option>
+                    <option value="Chopper">Chopper</option>
+                    <option value="Robin">Robin</option>
+                    <option value="Frankly">Frankly</option>
+                    <option value="Brook">Brook</option>
+                    <option value="Jimbei">Jinbei</option>
+                </optgroup>
+                <optgroup label="Piratas do ruivo">
+                    <option value="Shanks">Shanks</option>
+                    <option value="Benn Beckman">Beckman</option>
+                    <option value="Lucky Roux">Roux</option>
+                    <option value="Yasopp">Yasopp</option>
+                    <option value="Limejuice">Limejuice</option>
+                    <option value="Bonk Punch">Bonk Punch</option>
+                    <option value="Monster">Monster</option>
+                    <option value="Howling Gab">Howling Gab</option>
+                    <option value="Hongo">Hongo</option>
+                    <option value="Building Snake">Building Snake</option>
+                    <option value="Rockstar">Rockstar</option>
+                </optgroup>
+                <optgroup label="Piratas do barba negra">
+                    <option value="Marshall D. Teach"> barba negra</option>
+                    <option value="Jesus Burgess">Burgess</option>
+                    <option value="Shiryu">Shiryu</option>
+                    <option value="Van Augur">Van Augur</option>
+                    <option value="Avalo Pizarro">Pizarro</option>
+                    <option value="Laffitte">Laffitte</option>
+                    <option value="Catarina Devon">Devon</option>
+                    <option value="Sanjuan Wolf">Wolf</option>
+                    <option value="Vasco Shot">Shot</option>
+                    <option value="Ooo Q">Ooo Q</option>
+                    <option value="Kuzan">Kuzan</option>
+                </optgroup>
+                <optgroup label="CrossGuild">
+                    <option value="Buggy">Buggy</option>
+                    <option value="Crocodile">Crocodile</option>
+                    <option value="Dracule Mihawk">Mihawk</option>
+                    <option value="Alvida">Alvida</option>
+                    <option value="Mohji">Mohji</option>
+                    <option value="Richie">Richie</option>
+                    <option value="Cabaji">Cabaji</option>
+                    <option value="Galdino">Galdino</option>
+                    <option value="Daz Bonez">Bonez</option>
+                </optgroup>
+            </select>
+            <br><br>
+            <input type="checkbox" id="Barco1" checked />
+            <label for="Barco1">Going Merry</label><br>
+            <input type="checkbox" id="Barco2" />
+            <label for="Barco2">Thousand Sunny</label><br>
+            <input type="checkbox" id="Barco3" />
+            <label for="Barco3">Red Force</label><br>
+            <input type="checkbox" id="Barco4" />
+            <label for="Barco4">Big Top</label><br>
+            <input type="checkbox" id="Barco5" />
+            <label for="Barco5">Saber of Xebec</label><br>
+
+            <br><br>
+            <label for="imagem">Coloque sua imagem aqui</label>
+            <input id="imagem" type="file" />
+        </form>
+    </section>
+    <footer>
+        <p>formulario simples feito pata demonstar conhecimento em css e html</p>
+        <a href="page.html">retornar para iniio</a>
+    </footer>
+</body>
+<script src="logica.js"></script>
+
+</html>

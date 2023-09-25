@@ -1,0 +1,257 @@
+
+/*tags abaixo*/
+body {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: -10px;
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+form{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+}
+
+
+/*classes abaixo*/
+.nav {
+    position: fixed;
+    background-color: black;
+    color: white;
+    margin-top: -10px;
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.rest {
+    padding-left: 10px;
+    width: 80%;
+}
+
+.contForm{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.sen1{
+    width: 1 1 50%;
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+
+.sen2{
+    width: 2 1 50%;
+    
+}
+
+/**rsponsavel pelo carrossel de imagens*/
+.carrosel {
+    display: flex;
+    width: 500px;
+    flex-flow: row nowrap;
+    overflow-x: auto;
+    overflow-x: hidden;
+
+}
+
+.btL {
+    width: 100px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    background: rgb(202, 190, 190);
+    border: 1px solid black;
+    border-radius: 10%;
+    transition: all 300ms ease-in-out;
+}
+
+.btR {
+    width: 100px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    background: rgb(202, 190, 190);
+    border: 1px solid black;
+    border-radius: 10%;
+    transition: all 300ms ease-in-out;
+
+}
+
+.btR:hover {
+    cursor: pointer;
+    background-color: rgb(66, 66, 66);
+    color: white;
+}
+
+.btL:hover {
+    cursor: pointer;
+    background-color: rgb(66, 66, 66);
+    color: white;
+}
+
+.about {
+    display: none;
+}
+
+.choiced {
+    display: block;
+    font-size: 25px;
+}
+
+
+/*id abaixo*/
+#container {
+    display: flex;
+    justify-content: center;
+    height: 650px;
+}
+
+@media screen and (min-width:2000px) {
+    aside {
+        width: 20%;
+        padding-left: 25px;
+        border: 1px solid black;
+    }
+
+    .content {
+        font-size: 70px;
+        padding-top: 70px;
+        display: flex;
+        transition: all 600ms ease-in-out;
+    }
+
+    #lista {
+        position: fixed;
+        font-size: 25px;
+    }
+
+    img {
+        width: 1000px;
+        height: auto;
+    }
+
+    .about {
+        font-size: 70px;
+    }
+
+    #lista {
+        font-size: 55%;
+    }
+
+
+    .carrosel {
+        display: flex;
+        width: 1000px;
+        height: 1800px;
+        flex-flow: row nowrap;
+        overflow-x: auto;
+        overflow-x: hidden;
+        /*Para esconder o scrollbar no chrome*/
+        -ms-overflow-style: none;
+        /*Para esconder o scrollbar no ie e no Edge*/
+        scrollbar-width: none;
+        /*Para esconder o scrollbar no firefox*/
+        gap: 5px;
+    }
+
+    #container {
+        display: flex;
+        justify-content: center;
+        height: 1250px;
+    }
+
+}
+
+
+@media screen and (min-width:1500px) and (max-width:2000px) {
+    aside {
+        width: 20%;
+        padding-left: 25px;
+        margin-bottom: 0%;
+        border: 1px solid black;
+    }
+
+    img {
+        width: 500px;
+        height: auto;
+    }
+
+    .content {
+        font-size: 20px;
+        padding-top: 70px;
+        display: flex;
+        transition: all 600ms ease-in-out;
+    }
+
+    #lista {
+        position: fixed;
+        font-size: 25px;
+    }
+
+
+
+}
+
+@media screen and (min-width:1000px) and (max-width:1500px) {
+
+
+    .content {
+        font-size: 20px;
+        padding-top: 70px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        transition: all 600ms ease-in-out;
+    }
+
+    img {
+        width: 500px;
+        height: auto;
+    }
+
+    #lista {
+        display: none;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+
+
+    .content {
+        font-size: 20px;
+        padding-top: 70px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        transition: all 600ms ease-in-out;
+    }
+
+    img {
+        width: 500px;
+        height: auto;
+    }
+
+    #lista {
+        display: none;
+        font-size: 30px;
+    }
+}
